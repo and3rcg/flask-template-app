@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block head %}
+    <title>Homepage - Flask app</title>
+{% endblock %}
+
+{% block body %}
+    <h3>index.html file</h3>
+    <div id="my-div"></div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        document.getElementById("my-div").textContent = "This is a div";
+    </script>
+{% endblock %}
